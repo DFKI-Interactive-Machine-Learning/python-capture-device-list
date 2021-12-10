@@ -18,7 +18,7 @@ jobs:
     strategy:
       matrix:
         python-version: ['3.6', '3.7', '3.8', '3.9', '3.10']
-    name: Python ${{ matrix.python-version }} sample
+    name: Python ${{ matrix.python-version }} building and upload
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python
